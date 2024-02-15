@@ -1,0 +1,179 @@
+.informatica-top{
+    background-color: lightgrey;
+    height: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.80em;
+}
+
+.informatica-social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.informatica-social-media a{
+    padding-right: 30%;
+    text-decoration: none;
+    color: black;
+}
+
+.informatica-navbar{
+    height: 90px;
+    margin-bottom: 5%;
+}
+
+.informatica-connection{
+    color: black;
+    text-align: left;
+    margin-right: 3%;
+}
+
+.informatica-navbar-mobile{
+    background-color: white;
+    padding-left: 2%;
+    border: 2px solid #5c67ff;
+    margin-right: 10%;
+}
+
+.informatica-navbar-mobile .informatica-formation{
+    background-color: #4B9BF1;
+    border: 2px solid #5c67ff;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+
+.informatica-title-background{
+    background-image: url(img/informatica-ecole-informatique-collab.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.informatica-title{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 45%;
+    border: 10px ridge #5c67ff;
+    background: lightgrey
+}
+
+.informatica-home-background{
+    height: 50%;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: linear-gradient(#ffffff,#4b9bf1,#5c67ff,#4b9bf1,#ffffff);
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.informatica-border{
+    background: black;
+    margin-left: 10%;
+    width: 30%;
+    border: 3px solid #4B9BF1; 
+}
+
+.informatica-home-background img{
+    /* border-bottom: 3px solid #4B9BF1; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 10%;
+}
+
+.informatica-home-background h4{
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.informatica-background-block{
+    background-image: url(img/informatica-ecole-informatique-background.jpg);
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+.informatica-home-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.informatica-home-block-text{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: lightgrey;
+    box-shadow: 3px 3px 5px #4B9BF1, -3px -3px 5px #5c67ff;
+    text-align: center;
+    width : 40%;
+}
+
+.informatica-home-block-text h3{
+    font-size: 2em;
+}
+
+.informatica-home-block-text h4{
+    font-size: 1.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.informatica-home-carousel{
+    background: linear-gradient(90deg, #ffffff,#4B9BF1, #ffffff);     
+    margin-bottom: 10%;                                        
+}
+
+.informatica-home-carousel-slide{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.informatica-footer{
+    font-size: 1.3em;
+    color: white;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.informatica-footer-email-tel{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.informatica-footer-social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informatica-legal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
